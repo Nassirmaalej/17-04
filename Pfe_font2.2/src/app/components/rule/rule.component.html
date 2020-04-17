@@ -1,0 +1,164 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<div class="wrapper">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!------ Include the above in your HEAD tag ---------->
+<div class="page-header page-header-small">
+  <div class="page-header-image rellax-header" data-rellax-speed="-1" style="background-image: url('https://englishlive.ef.com/es-mx/blog/wp-content/uploads/sites/8/2018/09/Aprende-ingl%C3%A9s-bancario-y-financiero.jpg');" >
+
+  </div>
+  
+  <div class="section-content">
+    <div class="container">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+    <h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> <strong>En train d'écouter la base de données</strong></span></h1> 
+    <strong><p>Use the <code>show event<i class="fas fa-sync fa-spin"></i>
+   </code>  button to refresh</p>  
+   
+   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>   <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+<br>
+<br>
+   <button _ngcontent-ulo-c128="" type="button" class="btn btn-primary btn-round" (click)="getevent()"> <strong> Tous les Evenements</strong>   </button>
+
+  </strong>  
+
+ <div class="text-center"></div>
+
+  <br>
+
+        </div>
+</div>
+    
+<br>
+<br>
+<br>
+
+<div class="container">
+ <div class="jumbotron">
+     
+   <div class="container-fluid">
+
+ 
+
+        <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=small&timezone=Africa%2FTunis" width="100%" height="90" frameborder="0" seamless>
+        
+        </iframe>
+     
+
+
+     <div class="card mb-4">
+
+      
+      <div class="card-header" > <button class="btn btn-primary" type="button" disabled>
+  
+      <strong>Geting Evenements</strong>  
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+
+      </button>
+
+
+      </div>
+ 
+      <div class="card-body">
+
+
+ <div class="table-responsive" id="sailorTableArea">
+  <table id="sailorTable" class="table table-striped table-bordered" width="100%">
+
+    <thead >
+      <tr>
+        
+       <th style="color:rgb(5, 100, 129)"><strong>      &nbsp;  &nbsp; &nbsp; Type</strong></th>
+        <th style="color:rgb(5, 100, 129)"><strong>Details</strong></th>
+        <th style="color:rgb(5, 100, 129)"><strong>Date</strong></th>
+
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let r of rule">
+           <h6 style="color:rgb(0, 0, 0)"> <td>{{r.type}}</td></h6> 
+            <td style="color:rgb(0, 67, 105)">{{r.detail}}</td>
+           <strong> <td>{{r.date}} </td></strong> 
+         </tr>
+         <tr>
+      <td>    <strong> Listening   &nbsp;</strong>                  <div class="spinner-border spinner-border-sm"></div>
+      </td>
+      <td><div class="spinner-border spinner-border-sm"></div>
+      </td>
+      <td><div class="spinner-border spinner-border-sm"></div>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+              
+  
+              
+            
+          
+             </div>
+          
+         </div>
+         <label class="switch ">
+          <input type="checkbox" (click)="getconnect()" class="primary">
+           <span class="slider round" click= "getconnect()"></span>
+            </label>
+     </div>
+ </div>
+
+ </div>
+ </div>
+
+
+
+
+
+
+

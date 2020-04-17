@@ -1,0 +1,177 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="wrapper">
+  
+    
+
+  <div class="page-header page-header-small">
+      <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('https://www.cifinancial.com/sites/default/files/graph.jpg');" >
+
+      </div>
+
+      <div class="container">
+          <div class="content-center">
+            <h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> <strong>Dashobord de la table rule</strong></span></h1>
+
+              
+              <div class="text-center">
+        <button _ngcontent-ulo-c128="" type="button" class="btn btn-primary btn-round" (click)="getx()" (click)="getx()"> <strong (click)="getx()" > Voir tous les Statististiques</strong>   </button>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  ng s c 
+  <div class="section section-about-us">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                  <h2 class="title">      &nbsp;&nbsp; <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> <strong style="color:rgba(226, 86, 21, 0.87);" >  Number of events :</strong>  {{this.rulex + this.ruley + this. rulez}} 
+                  </h2>
+              </div>
+          </div>
+        
+
+
+          <div class="card mb-4">
+            <div class="card-header"><i class="fas fa-chart-area mr-1"></i><strong> Courbe de progression </strong>  </div>
+            <div class="card-body"><canvas id="myAreaChart" width="100%" height="15"></canvas></div>
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card ">
+                <div class="stats">
+                      
+                </div>
+                <div class="card-header ">
+                  
+                  <p style="color:rgba(226, 86, 21, 0.87);"><strong>Cercle des Evenements </strong></p>
+          
+                </div>
+                <div class="card-body ">
+                  <canvas id="chartEmail"></canvas>
+                </div>
+                <div class="card-footer ">
+                  <div class="legend">
+                   
+                    <i class="fa fa-circle text-warning"></i> Updated
+                    <i class="fa fa-circle text-danger"></i> Whrited
+                    <i class="fa fa-circle text-info"></i> Delted
+                  </div>
+                  <hr>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card card-chart">
+                <div class="card-header">
+                  <h5 class="card-title">Courbe détaillé </h5>
+                  <p style="color:rgba(226, 86, 21, 0.87);"><strong>Courbe des Evenements </strong></p>
+                </div>
+                <div class="card-body">
+                  <canvas id="speedChart" width="400" height="100"></canvas>
+                </div>
+                <div class="card-footer">
+                  <div class="chart-legend">
+                    <i class="fa fa-circle text-info"></i> Delted
+                    <i class="fa fa-circle text-danger"></i> Whrited
+                    <i class="fa fa-circle text-warning"> </i> Updated
+                  </div>
+                  <hr/>
+                  <div class="card-stats">
+                    <i class="fa fa-check"></i> Data information certified
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+            
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+             
+                        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-chart-bar mr-1"></i><strong> Bar Chart</strong>   </div>
+                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="50"></canvas></div>
+                                    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card mb-4">
+                                    <div class="card-header"><i class="fas fa-chart-pie mr-1"></i><strong> Pie Chart </strong>     </div>
+                                    <div class="card-body"><canvas id="myPieChart" width="100%" height="50"></canvas></div>
+                                    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer footer-default">
+      <div class="container">
+       
+          <div class="copyright">
+              &copy;
+              {{data | date: 'yyyy'}}, Designed by
+              <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+              <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+          </div>
+      </div>
+  </footer>
+</div>
