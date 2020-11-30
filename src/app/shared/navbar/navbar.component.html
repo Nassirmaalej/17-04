@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="500">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1200px-Orange_logo.svg.png" width="50">
+
+  <div class="container">
+
+    <div class="dropdown button-dropdown">
+      
+      <div ngbDropdown>
+        <a class="dropdown-toggle" ngbDropdownToggle style="color:rgba(226, 130, 21, 0.87);">
+            <span class="button-bar"></span>
+            <span class="button-bar"></span>
+            <span class="button-bar"></span>
+        </a>
+         <div ngbDropdownMenu>
+         
+           <a class="dropdown-item" [routerLink]="['/statrule']"    ><strong style="color:rgba(226, 130, 21, 0.87);"  >DASHBOARD DE LA TABLE RULE </strong></a>
+           <a class="dropdown-item" [routerLink]="['/test']"    ><strong style="color:rgba(226, 130, 21, 0.87);"  >MAP </strong></a>
+           <a class="dropdown-item" href="#">LOGIN PAGE</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Separated link</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">One more separated link</a>
+         </div>
+       </div>
+    </div>
+      <div class="navbar-translate">
+          <a class="navbar-brand" [routerLink]="['/index']" 
+          placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim"   >
+          <i class="now-ui-icons arrows-1_share-66"></i>
+          <p><strong>  PLUS </strong>    </p>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+              <span class="navbar-toggler-bar bar1"></span>
+              <span class="navbar-toggler-bar bar2"></span>
+              <span class="navbar-toggler-bar bar3"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+          <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/rule']"  >
+                <i _ngcontent-dka-c129="" class="now-ui-icons objects_globe"></i>                <p><strong>EVENEMENTS</strong></p>
+                
+              </a>
+          </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/stat']" >
+                    <i class="now-ui-icons files_paper"></i>
+                    <p><strong>Statistique</strong></p>
+                  </a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link"  [routerLink]="['/crud']">
+                  <i _ngcontent-dka-c129="" class="now-ui-icons ui-1_settings-gear-63"></i>                  <p><strong>Gestion des regles</strong></p>
+                </a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link"  [routerLink]="['/']">
+&nbsp; &nbsp;              
+              </a>
+          </li> 
+              <li class="nav-item">
+                  <a  [routerLink]="['/login']" >
+                    <strong _ngcontent-ulo-c128="" type="button" class="btn btn-primary btn-round">  <i class="now-ui-icons arrows-1_share-66"></i>QUITTER</strong> 
+                  </a>
+              </li>
+             
+             
+       
+            
+          </ul>
+      </div>
+  </div>
+</nav>

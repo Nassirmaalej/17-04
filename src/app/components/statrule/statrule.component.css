@@ -1,0 +1,177 @@
+.pinkBg {
+    background-color: #ed184f!important;
+    background-image: linear-gradient(90deg, #fd5581, #fd8b55);
+  }
+  .intro-banner-vdo-play-btn{
+    height:px;
+    width:px;
+    position:absolute;
+    top:24%;
+    left:52%;
+    text-align:center;
+    margin:-30px 0 0 -30px;
+    border-radius:100px;
+    z-index:1
+  }
+  .intro-banner-vdo-play-btn i{
+    line-height:6px;
+    font-size:30px
+  }
+  .intro-banner-vdo-play-btn .ripple{
+    position:absolute;
+    width:160px;
+    height:160px;
+    z-index:-1;
+    left:50%;
+    top:50%;
+    opacity:0;
+    margin:-80px 0 0 -80px;
+    border-radius:100px;
+    -webkit-animation:ripple 1.8s infinite;
+    animation:ripple 1.8s infinite
+  }
+  
+  @-webkit-keyframes ripple{
+    0%{
+        opacity:1;
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    100%{
+        opacity:0;
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+  }
+  @keyframes ripple{
+    0%{
+        opacity:1;
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    100%{
+        opacity:0;
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+  }
+  .intro-banner-vdo-play-btn .ripple:nth-child(2){
+    animation-delay:.3s;
+    -webkit-animation-delay:.3s
+  }
+  .intro-banner-vdo-play-btn .ripple:nth-child(3){
+    animation-delay:.6s;
+    -webkit-animation-delay:.6s
+  }
+  
+  
+  
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+  
+  
+  
+  
+  
+  
+#moncercle{
+    background:#bfd70e;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    border:2px solid #679403; 
+  }
+  
+  
+  
+  
+  
+  .content-header{
+      font-family: 'Oleo Script', cursive;
+      color:#29e2f0;
+      font-size: 50px;
+    }
+    
+    .section-content{
+      text-align: center; 
+    
+    }
+    .orange-circle-button {
+      box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+      border: .5em solid rgba(47, 14, 232, 0.856);
+      font-size: 1em;
+      line-height: 1.1em;
+      color: #7610eb;
+      background-color: #5c1bf5e1;
+      margin: auto;
+      border-radius: 50%;
+      height: 5em;
+      width: 5em;
+      position: relative;
+    }
+    #contact{
+        
+        font-family: 'Teko', sans-serif;
+      padding-top: 60px;
+      width: 100%;
+      width: 100vw;
+      height: 1550px;
+      background: #3a6186; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #3a6186 , rgb(12, 8, 230)); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #3975b152 , #8b2e2e09); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color : rgb(37, 34, 224);    
+    }
+    .contact-section{
+      padding-top: 40px;
+    }
+    .contact-section .col-md-6{
+      width: 50%;
+    }
+    
+    .form-line{
+      border-right: 1px solid #B29999;
+    }
+    

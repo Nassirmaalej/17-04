@@ -1,0 +1,33 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>Create Regle</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">id </label>
+      <input type="text" class="form-control" id="id" required [(ngModel)]="regle.id" name="id">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Categorie </label>
+      <input type="text" class="form-control" id="category" required [(ngModel)]="regle.category" name="category">
+    </div>
+    <div class="form-group">
+      <label for="name">Code </label>
+      <input type="text" class="form-control" id="code" required [(ngModel)]="regle.code" name="code">
+    </div>
+    <div class="form-group">
+      <label for="name">description </label>
+      <input type="text" class="form-control" id="category" required [(ngModel)]="regle.description" name="category">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <h4>You submitted successfully!</h4>
+  <button class="btn btn-success" (click)="newRegle()">Add</button>
+</div>

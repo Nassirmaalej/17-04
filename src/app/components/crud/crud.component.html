@@ -1,0 +1,134 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="wrapper">
+  
+    
+
+  <div class="page-header page-header-small">
+      <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('https://images.squarespace-cdn.com/content/v1/57ffb3c61b631bf53dfad02d/1479502931209-1BRNCOSI1R3AZVML74G0/ke17ZwdGBToddI8pDm48kByW24SeBs49-0P_g8v3QGZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQBFUX4xvAh0yd0AT88fg-BpxILVKzwz1yC_SJHYteJFPHrI9RoTG-J-GQO4TMy6uQ/iStock-487974242.jpg?format=2500w');" >
+
+      </div>
+
+      <div class="container">
+          <div class="content-center">
+            <h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> <strong>Gestion des régles</strong></span></h1>        
+              <div class="text-center">
+            
+      
+      
+      
+      </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    </head>
+
+<body>
+  
+<div class="container">
+
+  <div class="jumbotron">
+
+    <div class="container-fluid">
+ 
+
+    <div class="container">
+
+	    <div class="row">
+        
+		    <table class="table table-hover table-striped">
+		        <thead>
+		        <tr class="thead-dark">
+		            <th>Category</th>
+		            <th>Code</th>
+		            <th> Description</th>
+                <th>Supprimer</th>
+                <th>Modifier</th>
+                <th>Ajouter</th>
+		        </tr>
+		    </thead>
+		        <tbody>
+		          
+		            
+                  <tr *ngFor="let x of regle ">
+                      
+                   <h6><td>{{x.category}}</td></h6> 
+                     <td>{{x.code}}</td>
+                     <td>{{x.description}}</td>
+                      <td><button (click)=deleteregle(x) class="btn btn-danger">    <i class="fas fa-trash"></i>   Delete</button> </td>
+                      <td> <button class="btn btn-primary" (click)=updateregle(x)>  <i class="fas fa-edit"></i> Edit </button></td> 
+                      
+                      <td> <button class="btn btn-success" >  <i class="fas fa-edit"></i> Add </button></td> 
+
+              
+          
+                  
+                    </tr>
+		            
+		            
+		            
+		        
+		        </tbody>
+		    </table>
+	</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+<footer class="footer footer-default">
+  <div class="container">
+   
+      <div class="copyright">
+          &copy;
+          {{data | date: 'yyyy'}}, Designed by
+          <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+          <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
