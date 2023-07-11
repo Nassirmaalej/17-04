@@ -39,7 +39,7 @@
     "font-awesome": "4.7.0",
     "jquery": "^3.5.0",
     "jqwidgets-ng": "^9.0.0",
-    "jszip": "^3.3.0",
+    "jszip": "^3.8.0",
     "jw-bootstrap-switch-ng2": "2.0.5",
     "ng2-nouislider": "1.7.13",
     "ngx-bootstrap": "^5.6.1",
